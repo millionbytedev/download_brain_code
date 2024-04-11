@@ -1,0 +1,81 @@
+.footer{
+	text-align: center;
+	padding: 10px 0;
+	position: fixed;
+    left: 1px;
+    bottom: 0;
+    width: 100%;
+	word-spacing: 2px;
+	letter-spacing: normal;
+
+}
+
+.tema {
+	padding-top: 50px;
+	color:white;
+	background-color:#25292c;
+}
+
+.image {
+	position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 100%;
+	
+}
+
+.p1 {
+	text-align: center;
+	padding-left: 1%;
+	
+    
+}
+
+a {
+	color:white;
+	text-decoration: none; 
+}
+
+
+
+table {
+	caption-side: bottom;
+    border-collapse: collapse;
+	width: 50%; 
+	margin: 0 auto;
+	
+}
+
+th {
+	color: white;
+	border: 1px solid rgb(0, 0, 0);
+	padding: 8px;
+	text-align: left;
+	
+}
+
+td {
+	color:white;
+	border: 1px solid rgb(0, 0, 0);
+	padding: 8px;
+	text-align: left;
+	background-color: #25292c;
+}
+
+th {
+	background-color:#25292c;
+    text-align: center; 
+}
+
+
+
+
+#btn {
+	padding: 4px 8px;
+    font-size: 12px;
+}
+
+
+
+

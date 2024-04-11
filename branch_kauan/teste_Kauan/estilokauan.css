@@ -1,0 +1,30 @@
+.footer2 {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f8f9fa; /* Cor de fundo */
+}
+
+.footer2 nav {
+    margin-bottom: 20px; /* Espaço entre o conteúdo e o rodapé */
+}
+
+.footer2 h4 {
+    color: #333; /* Cor do título */
+    font-size: 18px; /* Tamanho da fonte do título */
+    margin-bottom: 10px; /* Espaço entre o título e o conteúdo */
+}
+
+.footer2 p {
+    color: #666; /* Cor do texto */
+    font-size: 16px; /* Tamanho da fonte do texto */
+    line-height: 1.6; /* Altura da linha para melhor legibilidade */
+    margin-bottom: 10px; /* Espaço entre os parágrafos */
+}
+
+.footer2 p:last-child {
+    margin-bottom: 0; /* Remove a margem inferior do último parágrafo */
+}
+
+.footer2 p.equipes {
+    font-style: italic; /* Estilo itálico */
+}

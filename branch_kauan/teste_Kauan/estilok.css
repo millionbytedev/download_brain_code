@@ -1,0 +1,74 @@
+/*################## CONSULTAR PROFESSOR ###################*/
+  .caixa3{
+        background-color:white;
+        padding: 40px; /* Ajuste o padding conforme necessário */
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-top: 100px; /* Adicione margem na parte superior */
+        max-width: 1000px; /* Define a largura máxima da caixa */
+        margin-left: auto;
+        margin-right: auto;
+  }
+ 
+  .table {
+    width: 100%; /* Define a largura da tabela como 100% */
+}
+.background2{
+    background: linear-gradient(144deg,#e3e3f5, #f3edf7 50%, #e9f6fa);
+}
+/*########### DESIGN BOTÃO ###############*/
+ 
+/* Estilos para o botão com gradiente linear */
+.botao-gradient {
+    display: inline-block;
+    padding: 10px 20px;
+    background-image: linear-gradient(to right, #b8f8f5, #dac0f7); /* Gradiente linear de azul para cyan */
+    color: #000000; /* Cor do texto do botão */
+    text-decoration: none; /* Remover sublinhado do texto */
+    border: none; /* Remover borda */
+    border-radius: 5px; /* Borda arredondada */
+    transition: background-image 0.3s ease; /* Transição suave do gradiente ao passar o mouse */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.9);
+    margin-right: 10px;
+}
+ 
+/* Estilo ao passar o mouse */
+.botao-gradient:hover {
+    background-image: linear-gradient(to right, #7ff8f8, #b67ff5); /* Gradiente linear alterado ao passar o mouse */
+    color: white;
+}
+ 
+/* Estilos para os botões */
+.btn {
+    padding: 10px 20px; /* Preenchimento dos botões */
+    border-radius: 5px; /* Borda arredondada dos botões */
+    transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
+}
+ 
+/* Estilo ao passar o mouse sobre os botões */
+.btn:hover {
+    background-color: #007bff; /* Cor de fundo alterada ao passar o mouse */
+    color: #fff; /* Cor do texto alterada ao passar o mouse */
+}
+/* BOTÃO UPLOAD*/
+.custom-file-upload {
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #b8f8f5, #dac0f7);
+    color: #000000;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.9);
+}
+ 
+.custom-file-upload:hover {
+    background-image: linear-gradient(to right, #7ff8f8, #b67ff5); /* Gradiente linear alterado ao passar o mouse */
+    color: white;
+}
+ 
+/* Estilo para ocultar o input file padrão */
+input[type="file"] {
+    display: none;
+}

@@ -1,0 +1,153 @@
+/*############ DESIGN DO BODY ###########*/
+.light-theme{
+    background: linear-gradient(144deg,#e3e3f5, #f3edf7 50%, #e9f6fa);
+}
+/*############ FIM DESIGN DO BODY ########*/
+ 
+/*############ DESIGN FONTE ############*/
+h1{
+    color: black;
+    padding-top: 50px;
+    font-family: "Archivo Black";
+}
+ 
+h2{
+    color: black;
+    font-family: "Archivo Black";
+    padding-bottom: 30px;
+}
+ 
+h4{
+    padding-bottom: 20px;
+    padding-top: 50px;
+    font-family: "Archivo Black";
+}
+ 
+.archivo-black-regular {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+ 
+  #fs-4{
+    color: red
+  }
+/*########### FIM DESIGN DA FONTE #########*/
+ 
+/*########### DESIGN CARDS ###############*/
+    .card {
+        background: linear-gradient(144deg,#d0b8f7, #e1c4f5 50%, #cdedf7);
+        border-radius: 20px; /* Adicionei um raio de borda para melhorar a aparência */
+        padding: 0px; /* Adicionei um preenchimento para espaçamento interno */
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.9); /* Adicionei uma sombra para destacar os cards */
+       
+    }
+ 
+    /* Estilos para borda arredondada na thumbnail do vídeo */
+.card-body iframe {
+    border-radius: 10px; /* Define a borda arredondada para a thumbnail */
+}
+/*########### FIM DESIGN CARDS ############*/
+ 
+/*########### TAMANHO DO LOGO #############*/
+.imagem-redonda {
+    width: 150px;
+    height: 250px;
+    position: relative;
+    padding-top: 90px;
+    margin-top: 50px;
+    margin-bottom: -150px; /* Adiciona espaço abaixo da imagem */
+ 
+}
+ 
+/*########### FIM DESIGN LOGO #############*/
+ 
+/*########### ESPAÇAMENTO DOS CARDS #######*/
+.row{
+    padding-top: 40px;
+}
+/*########### FIM DESIGN CARDS ############*/
+ 
+/*########### DESIGN BOTÃO ###############*/
+/* Estilos para o botão com gradiente linear */
+.botao-gradient {
+    display: inline-block;
+    padding: 10px 20px;
+    background-image: linear-gradient(to right, #b8f8f5, #dac0f7); /* Gradiente linear de azul para cyan */
+    color: #000000; /* Cor do texto do botão */
+    text-decoration: none; /* Remover sublinhado do texto */
+    border: none; /* Remover borda */
+    border-radius: 5px; /* Borda arredondada */
+    transition: background-image 0.3s ease; /* Transição suave do gradiente ao passar o mouse */
+}
+ 
+/* Estilo ao passar o mouse */
+.botao-gradient:hover {
+    background-image: linear-gradient(to right, #7ff8f8, #b67ff5); /* Gradiente linear alterado ao passar o mouse */
+    color: white;
+}
+ 
+ 
+ 
+/*deletar adm*/
+ 
+#quadro {
+    margin-top: 200px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom:px; /* Adicionando espaço entre o formulário e o final da página */
+    position: relative;
+}
+ 
+ 
+.container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 50px;
+}
+ 
+.btn {
+    margin-top: 20px;
+    margin-right: 10px;
+   
+}
+ 
+/* Estilos para os labels */
+.form-label {
+    font-weight: bold;
+    color: #000000;
+}
+ 
+/* Estilos para os parágrafos */
+.mb-3 p {
+    margin-bottom: 0; /* Evita espaçamento extra entre os parágrafos */
+    font-family: 'Segoe UI';
+    font-size: 16px;
+}
+ 
+/* Adicionando espaço entre o formulário e o final da página */
+.spacer {
+    height: 150px; /* altura desejada do espaço */
+}
+ 
+/*enviar recados--caixa de texto*/
+.inputMensagem {
+   width: 80%; /* Define a largura da caixa de texto */
+    max-width: 600px; /* Define a largura máxima da caixa de texto */
+    padding: 10px; /* Adiciona preenchimento interno à caixa de texto */
+    margin: 0 auto; /* Centraliza a caixa de texto horizontalmente */
+    display: block; /* Transforma a caixa de texto em um bloco, permitindo o alinhamento horizontal */
+}
+ 
+ 
+.recado {
+    margin-bottom: 20px;
+}
+ 
+.recado h3 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
